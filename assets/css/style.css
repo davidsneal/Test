@@ -1,0 +1,132 @@
+#weather {
+border-radius: 10px 10px 10px 10px;
+background: #184B78;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#184B78', endColorstr='#5F84A6');
+background: -webkit-gradient(linear, left top, left bottom, from(#184B78), to(#5F84A6));
+background: -moz-linear-gradient(left top, #184B78, #5F84A6);
+height: 244px;
+margin-top: 3px;
+position: relative;
+font-family: ArialNarrow;
+font-weight: normal;
+color: #e0e3ee;
+}
+
+h1 {
+	font-family: 'Happy Monkey', cursive;
+	color: #fff !important;
+}
+.fb-comments, .fb-comments * {width: 100% !important;}
+.share-prat {
+width: 100%;
+}
+
+.no-top-margin {
+	margin-top:0 !important;
+}
+
+@media all and (max-width: 354px) {
+  .jumbotron h1 {
+    font-size: 24px;
+  }
+}
+
+.jumbotron {
+	background-color:#b0ddce;
+	height: 760px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+	margin-bottom:20px;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+a { 
+	color:#1fa67a;
+}
+a:hover {
+	color:#1b926c;
+}
+
+.btn-primary {
+color: #fff;
+background-color: #1fa67a;
+border-color: #1b926c;
+}
+
+.btn-primary:hover {
+background-color: #1b926c;
+border-color: #1b926c;
+}
+
+.copyright, .navbar-default .navbar-brand {
+	color:#fff;
+	font-family: 'Happy Monkey', cursive;
+}
+
+.copyright, .navbar-default .navbar-brand:hover {
+	color:#fff !important;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	background-color:#1fa67a;
+}
+
+.navbar-default {
+background-color: #1fa67a;
+border-color: #1b926c;
+border-radius:0;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #b0ddce !important;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+color: #fff !important;
+background-color:#1fa67a !important;
+}
+
+.navbar-default .navbar-nav>.open>a {
+background-color: #1fa67a !important;
+color: #fff !important;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -50px;
+  /* Pad bottom by footer height */
+  padding: 0 0 50px;
+}
+
+/* Set the fixed height of the footer here */
+footer {
+	padding-top:15px;
+	height: 50px;
+	background-color: #1fa67a;
+	border-top:1px solid #1b926c;
+}

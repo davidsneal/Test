@@ -1,0 +1,481 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  ,
+  "forecast": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Basingstoke, United Kingdom",
+		"city":"Basingstoke",
+		"state":"",
+		"state_name":"United Kingdom",
+		"country":"UK",
+		"country_iso3166":"GB",
+		"zip":"00000",
+		"magic":"14",
+		"wmo":"03761",
+		"latitude":"51.26666641",
+		"longitude":"-1.08333302",
+		"elevation":"81.00000000"
+		},
+		"observation_location": {
+		"full":"Glens Weather, Basingstoke, HAMPSHIRE",
+		"city":"Glens Weather, Basingstoke",
+		"state":"HAMPSHIRE",
+		"country":"UNITED KINGDOM",
+		"country_iso3166":"GB",
+		"latitude":"51.262180",
+		"longitude":"-1.094779",
+		"elevation":"285 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"IHAMPSHI43",
+		"observation_time":"Last Updated on January 27, 3:09 PM GMT",
+		"observation_time_rfc822":"Mon, 27 Jan 2014 15:09:56 +0000",
+		"observation_epoch":"1390835396",
+		"local_time_rfc822":"Mon, 27 Jan 2014 15:16:31 +0000",
+		"local_epoch":"1390835791",
+		"local_tz_short":"GMT",
+		"local_tz_long":"Europe/London",
+		"local_tz_offset":"+0000",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"41.3 F (5.2 C)",
+		"temp_f":41.3,
+		"temp_c":5.2,
+		"relative_humidity":"89%",
+		"wind_string":"From the SW at 7.1 MPH Gusting to 13.0 MPH",
+		"wind_dir":"SW",
+		"wind_degrees":229,
+		"wind_mph":7.1,
+		"wind_gust_mph":"13.0",
+		"wind_kph":11.4,
+		"wind_gust_kph":"20.9",
+		"pressure_mb":"988",
+		"pressure_in":"29.18",
+		"pressure_trend":"-",
+		"dewpoint_string":"38 F (3 C)",
+		"dewpoint_f":38,
+		"dewpoint_c":3,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"37 F (3 C)",
+		"windchill_f":"37",
+		"windchill_c":"3",
+		"feelslike_string":"37 F (3 C)",
+		"feelslike_f":"37",
+		"feelslike_c":"3",
+		"visibility_mi":"6.2",
+		"visibility_km":"10.0",
+		"solarradiation":"--",
+		"UV":"0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.04 in (1 mm)",
+		"precip_today_in":"0.04",
+		"precip_today_metric":"1",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/03761.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IHAMPSHI43",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=51.262180,-1.094779"
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"12:00 AM GMT",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Monday",
+		"fcttext":"Mostly cloudy with a chance of rain in the morning, then overcast. High of 45F. Breezy. Winds from the WSW at 15 to 20 mph.",
+		"fcttext_metric":"Mostly cloudy with a chance of rain in the morning, then overcast. High of 7C. Windy. Winds from the WSW at 25 to 30 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancerain.gif",
+		"title":"Monday Night",
+		"fcttext":"Overcast with a chance of rain after midnight. Fog overnight. Low of 39F. Winds from the SW at 10 to 15 mph. Chance of rain 40%.",
+		"fcttext_metric":"Overcast with a chance of rain after midnight. Fog overnight. Low of 4C. Breezy. Winds from the SW at 20 to 25 km/h. Chance of rain 40%.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":2,
+		"icon":"chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancerain.gif",
+		"title":"Tuesday",
+		"fcttext":"Overcast with a chance of rain. High of 46F. Breezy. Winds from the SSW at 15 to 20 mph. Chance of rain 50%.",
+		"fcttext_metric":"Overcast with a chance of rain. High of 8C. Windy. Winds from the SSW at 20 to 30 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":3,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Overcast with a chance of rain. Low of 37F. Winds from the South at 5 to 10 mph.",
+		"fcttext_metric":"Overcast with a chance of rain. Low of 3C. Winds from the South at 5 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":4,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Wednesday",
+		"fcttext":"Overcast with a chance of rain. High of 43F. Winds from the East at 10 to 15 mph. Chance of rain 20%.",
+		"fcttext_metric":"Overcast with a chance of rain. High of 6C. Breezy. Winds from the East at 15 to 20 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":5,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Overcast with a chance of rain. Low of 34F. Winds from the NE at 10 to 15 mph.",
+		"fcttext_metric":"Overcast with a chance of rain. Low of 1C. Breezy. Winds from the NE at 15 to 20 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":6,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Thursday",
+		"fcttext":"Overcast. High of 43F. Winds from the NE at 5 to 10 mph.",
+		"fcttext_metric":"Overcast. High of 6C. Winds from the NE at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":7,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Thursday Night",
+		"fcttext":"Overcast. Low of 30F. Winds less than 5 mph.",
+		"fcttext_metric":"Overcast. Low of -1C. Winds less than 5 km/h.",
+		"pop":"0"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1390856400",
+	"pretty":"9:00 PM GMT on January 27, 2014",
+	"day":27,
+	"month":1,
+	"year":2014,
+	"yday":26,
+	"hour":21,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"January",
+	"monthname_short":"Jan",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"GMT",
+	"tz_long":"Europe/London"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"45",
+		"celsius":"7"
+		},
+		"low": {
+		"fahrenheit":"39",
+		"celsius":"4"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.03,
+		"mm": 0.8
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.01,
+		"mm": 0.3
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 19,
+		"kph": 30,
+		"dir": "WSW",
+		"degrees": 254
+		},
+		"avewind": {
+		"mph": 14,
+		"kph": 22,
+		"dir": "SW",
+		"degrees": 232
+		},
+		"avehumidity": 85,
+		"maxhumidity": 91,
+		"minhumidity": 77
+		}
+		,
+		{"date":{
+	"epoch":"1390942800",
+	"pretty":"9:00 PM GMT on January 28, 2014",
+	"day":28,
+	"month":1,
+	"year":2014,
+	"yday":27,
+	"hour":21,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"January",
+	"monthname_short":"Jan",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"GMT",
+	"tz_long":"Europe/London"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"46",
+		"celsius":"8"
+		},
+		"low": {
+		"fahrenheit":"37",
+		"celsius":"3"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"mostlycloudy",
+		"pop":50,
+		"qpf_allday": {
+		"in": 0.02,
+		"mm": 0.5
+		},
+		"qpf_day": {
+		"in": 0.02,
+		"mm": 0.5
+		},
+		"qpf_night": {
+		"in": 0.02,
+		"mm": 0.5
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 17,
+		"kph": 27,
+		"dir": "SW",
+		"degrees": 215
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "SSW",
+		"degrees": 211
+		},
+		"avehumidity": 89,
+		"maxhumidity": 98,
+		"minhumidity": 85
+		}
+		,
+		{"date":{
+	"epoch":"1391029200",
+	"pretty":"9:00 PM GMT on January 29, 2014",
+	"day":29,
+	"month":1,
+	"year":2014,
+	"yday":28,
+	"hour":21,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"January",
+	"monthname_short":"Jan",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"GMT",
+	"tz_long":"Europe/London"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"43",
+		"celsius":"6"
+		},
+		"low": {
+		"fahrenheit":"34",
+		"celsius":"1"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"skyicon":"mostlycloudy",
+		"pop":20,
+		"qpf_allday": {
+		"in": 0.07,
+		"mm": 1.8
+		},
+		"qpf_day": {
+		"in": 0.03,
+		"mm": 0.8
+		},
+		"qpf_night": {
+		"in": 0.02,
+		"mm": 0.5
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "East",
+		"degrees": 95
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "ENE",
+		"degrees": 63
+		},
+		"avehumidity": 89,
+		"maxhumidity": 96,
+		"minhumidity": 75
+		}
+		,
+		{"date":{
+	"epoch":"1391115600",
+	"pretty":"9:00 PM GMT on January 30, 2014",
+	"day":30,
+	"month":1,
+	"year":2014,
+	"yday":29,
+	"hour":21,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"January",
+	"monthname_short":"Jan",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"GMT",
+	"tz_long":"Europe/London"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"43",
+		"celsius":"6"
+		},
+		"low": {
+		"fahrenheit":"30",
+		"celsius":"-1"
+		},
+		"conditions":"Mostly Cloudy",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"skyicon":"cloudy",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "NE",
+		"degrees": 45
+		},
+		"avewind": {
+		"mph": 6,
+		"kph": 10,
+		"dir": "ENE",
+		"degrees": 60
+		},
+		"avehumidity": 82,
+		"maxhumidity": 92,
+		"minhumidity": 72
+		}
+		]
+		}
+	}
+}
